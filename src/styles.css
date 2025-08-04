@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&family=Prata&display=swap');
+
+
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-prata: 'Prata', serif;
+  --font-abril: 'Abril Fatface', cursive;
+
+  --color-primaria: #6278F7;
+  --color-secundaria: #2E2E2E;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-montserrat);
+}
+
+
+.texto-titulo {
+  font-family: var(--font-prata);
+  font-size: 40px;
+  font-weight: var(--font-weight-normal);
+  line-height: 72px;
+  text-align: center;
+  color: var(--color-primaria);
+}
+
+
+.texto-h3-prata {
+  font-family: var(--font-abril) !important;
+  font-size: 48px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: inherit; 
+}
+
+
+.linha-destaque {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.linha-destaque--pequena {
+  width: 32px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 16px 0;
+}

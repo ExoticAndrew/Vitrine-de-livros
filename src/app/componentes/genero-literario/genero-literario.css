@@ -1,0 +1,103 @@
+.livros-genero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.generos {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 160px;
+  align-items: center;
+}
+
+.texto-h3-prata {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.romance .texto-h3-prata {
+  color: #C2185B;
+}
+
+.misterio .texto-h3-prata {
+  color: #1C1C1C;
+}
+
+.fantasia .texto-h3-prata {
+  color: #4527A0;
+}
+
+.ficcao-cientifica .texto-h3-prata {
+  color: #00838F;
+}
+
+.distopia .texto-h3-prata {
+  color: #424242;
+}
+
+.classico .texto-h3-prata {
+  color: #FF6F00;
+}
+
+.linha-destaque--pequena {
+  width: 32px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 16px 0;
+}
+
+.romance {
+  background-color: #FFE5EC;
+}
+.generos.romance {
+  border-bottom: 4px solid #FF6F91;
+}
+
+.misterio {
+  background-color: #F3F3F3;
+}
+.generos.misterio {
+  border-bottom: 4px solid #333333;
+}
+
+.fantasia {
+  background-color: #E6E6FF;
+}
+.generos.fantasia {
+  border-bottom: 4px solid #7B61FF;
+}
+
+.ficcao-cientifica {
+  background-color: #E0F7FA;
+}
+.generos.ficcao-cientifica {
+  border-bottom: 4px solid #26C6DA;
+}
+
+.distopia {
+  background-color: #FAFAFA;
+}
+.generos.distopia {
+  border-bottom: 4px solid #9E9E9E;
+}
+
+.classico {
+  background-color: #FFF8E1;
+}
+.generos.classico {
+  border-bottom: 4px solid #FFB300;
+}
+
+app-livro {
+  flex: 1 1 200px;
+  max-width: 220px;
+}

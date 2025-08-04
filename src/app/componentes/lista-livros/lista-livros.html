@@ -1,0 +1,11 @@
+<section>
+  <h2 class="texto-titulo">
+      Melhores indicações 
+  </h2>
+  
+  <span class="linha-destaque linha-destaque--grande"></span>
+</section>
+
+<ng-container *ngFor="let genero of generos">
+  <app-genero-literario [genero]="genero"></app-genero-literario>
+</ng-container>

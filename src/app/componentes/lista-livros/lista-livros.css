@@ -1,0 +1,10 @@
+.texto-titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2C2C2C;
+  text-align: center;
+  margin-top: 32px;
+  letter-spacing: 1px;
+}
+

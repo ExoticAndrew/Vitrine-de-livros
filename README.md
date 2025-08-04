@@ -1,59 +1,19 @@
-# Organo
+# 📚 Organo – Catálogo de Livros por Gênero
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.2.
+Este é um projeto desenvolvido com **Angular** com o objetivo de organizar e exibir livros separados por categorias literárias (Romance, Mistério, Fantasia, etc). Ele permite uma visualização clara e atrativa dos livros, utilizando componentes reutilizáveis e estilos personalizados.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-To start a local development server, run:
+- Angular CLI v20.1.2  
+- HTML5 & CSS3  
+- TypeScript  
+- Google Fonts  
+- Fontes de dados organizadas em arrays tipados
 
-```bash
-ng serve
-```
+## 🎯 Funcionalidades
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Exibição de livros organizados por gênero  
+- Estilo visual personalizado por categoria  
+- Componentização de layouts com Angular  
+- Responsividade e organização em cards  
+- Utilização de boas práticas com CSS global e SCSS modular 
